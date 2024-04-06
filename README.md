@@ -1,6 +1,8 @@
-# Nuxt 3 Minimal Starter
+# Nuxt3 + Typescript + NuxtUI + TailwindCSS + ApexChart admin page
+### Look at this screenshot as a preview
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+![Screenshot 2024-04-06 at 3 53 25 PM](https://github.com/attractive-vue-dev/Nuxt3-ui-apexchart/assets/57170337/ffb1b407-4567-4cf7-94a6-88eb016f7b88)
+
 
 ## Setup
 
@@ -10,33 +12,11 @@ Make sure to install the dependencies:
 # npm
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
 ## Development Server
 
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
 
 ## Production
 
@@ -46,14 +26,6 @@ Build the application for production:
 # npm
 npm run build
 
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
 ```
 
 Locally preview production build:
@@ -61,15 +33,5 @@ Locally preview production build:
 ```bash
 # npm
 npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
 ```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+#### To give more inspiration about knowledge and experience in ApexCharts, NuxtUI frameworks, and TailwindCSS, I created 1 page admin dashboard with static data.

@@ -54,6 +54,7 @@
           </ul>
         </div>
       </div>
+      <UserProfile :user="userInfo" />
     </div>
   </nav>
   <div class="px-4 pt-6">
@@ -139,7 +140,7 @@
 </template>
 
 <script lang="ts">
-import { ref, defineComponent, computed } from 'vue'
+import { defineComponent } from 'vue'
 import { useAdminStore } from '@/stores/admin'
 
 export default defineComponent({
@@ -184,10 +185,16 @@ export default defineComponent({
     const dropdownItems = [
       'Today', 'Yesterday', 'Last 7 days'
     ]
+    const userInfo = {
+      firstName: "John",
+      lastName: "Doe"
+    }
+
     return {
       tabItems,
       chartSeries,
-      dropdownItems
+      dropdownItems,
+      userInfo
     }
   },
   data() {
